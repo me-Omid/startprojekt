@@ -11,5 +11,16 @@ config_version=5
 [application]
 
 config/name="Startprojekt"
+run/main_scene="uid://cqnobvq45iqob"
 config/features=PackedStringArray("4.5", "Forward Plus")
 config/icon="res://icon.svg"
+
+[display]
+
+window/size/mode=2
+window/stretch/mode="viewport"
+window/stretch/aspect="expand"
+
+[rendering]
+
+textures/canvas_textures/default_texture_filter=0
